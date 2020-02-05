@@ -16,6 +16,5 @@ class Historico {
         $sql->bindValue(":acao", $acao);
         $sql->bindValue(":ip", $ip);
         $sql->execute();
-        var_dump($sql);
     }
 }
